@@ -14,7 +14,7 @@ body {
 .header {
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  background-color: #fff;
   z-index: 1;
 }
 
@@ -30,14 +30,15 @@ body {
   color: #4e4e4e;
   }
 
-.header__btn {
+.header-btn {
   padding: 14px 12px;
   font-size: 12px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
-.header__btn:hover {
+.header-btn:hover {
   color: #333;
   transition: 0.3 ;
 }
@@ -61,7 +62,7 @@ body {
 }
 
 .green-right {
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -80,7 +81,6 @@ body {
 .image-title {
   text-align: center;
   font-size: 24px;
-
 }
 
 .image-content:hover {
@@ -100,58 +100,21 @@ body {
 .black-inner {
   padding: 70px 0 100px 0;
 }
+.black-data {
+  text-align: center;
+}
 
 .black-title {
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding-bottom: 40px;
 }
 
-.date-title{
+.data-title{
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 20px;
-}
-
-.date::before {
-  content: '';
-  display: block;
-  margin-left: 50%;
-  height: 100%;
-  border-radius: 0 100% 100% 0 / 50%;
-  background-color: inherit;
-  transform-origin: left;
-}
-
-.circle {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: #4e4e4e;
-}
-
-.JavaScrit::before {
-  background-color: #74cfae;
-  transform: rotate(80deg);
-  
-}
-
-.Bootstrap::before {
-  background-color: #74cfae;
-  transform: rotate(150deg);
-}
-
-.Wordpress::before {
-  background-color: #74cfae;
-  transform: rotate(55deg);
-}
-
-.Photoshop::before {
-  transform: rotate(180deg);
+  font-family: 'Lato', sans-serif;
 }
 
 .sns {
@@ -159,7 +122,7 @@ body {
 }
 
 .box:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   transition: 0.3s ;
 }
 
@@ -177,7 +140,7 @@ body {
 }
 
 .footer-text {
-  color: #ffffff;
+  color: #fff;
   float: right;
 }
 
@@ -208,9 +171,16 @@ body {
   display: flex;
 }
 
+.green-right {
+  color: #fff;
+  text-align: center;
+  margin-left: 165px;
+}
+
 .green-text {
   font-size: 20px;
-  margin: 35px 0  0 140px;
+  margin-top: 35px;
+  font-family: 'Lato', sans-serif;
 }
 
 .image-contents {
@@ -247,26 +217,20 @@ body {
   padding: 17px 20px;
   font-size: 12px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
   width: 20%;
 }
 
-.black-date {
+.black-flex {
   display: flex;
   justify-content: center;
 }
 
-.date {
-  background-color: #333;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
+.black-data {
   margin-left: 180px;
-  background-image: linear-gradient(to right, transparent 50%, #74cfae 0);
-  position: relative;
 }
 
-.date:first-child {
+.black-data:first-child {
   margin-left: 0;
 }
 
@@ -319,10 +283,16 @@ body {
   margin-bottom: 20px;
 }
 
+.green-right {
+  color: #fff;
+  text-align: center;
+}
+
 .green-text {
   width: 75%;
   margin: auto;
   margin-top: 35px;
+  font-family: 'Lato', sans-serif;
 }
 
 .image-contents {
@@ -355,21 +325,14 @@ body {
   padding: 7px 20px;
   font-size: 12px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
 }
 
-.date {
-  background-color: #333;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  margin: auto;
+.black-data {
   margin-top: 88px;
-  background-image: linear-gradient(to right, transparent 50%, #74cfae 0);
-  position: relative;
 }
 
-.date:first-child {
+.black-data:first-child {
   margin-top: 0;
 }
 
@@ -450,8 +413,14 @@ body {
   margin-bottom: 10px;
 }
 
+.green-right {
+  color: #fff;
+  text-align: center;
+}
+
 .green-text {
   margin-top: 35px;
+  font-family: 'Lato', sans-serif;
 }
 
 .image-contents {
@@ -482,21 +451,14 @@ body {
   padding: 7px 20px;
   font-size: 12px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
 }
 
-.date {
-  background-color: #333;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  margin: auto;
+.black-data {
   margin-top: 90px;
-  background-image: linear-gradient(to right, transparent 50%, #74cfae 0);
-  position: relative;
 }
 
-.date:first-child {
+.black-date:first-child {
   margin-top: 0;
 }
 
