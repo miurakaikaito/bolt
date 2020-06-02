@@ -143,7 +143,7 @@ body {
 
 .footer-text {
   color: #fff;
-  float: right;
+  text-align: end;
   font-family: 'Lato', sans-serif;
 }
 
