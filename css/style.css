@@ -1,5 +1,5 @@
 body {
-  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Lato', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -142,6 +142,7 @@ body {
 .footer-text {
   color: #fff;
   float: right;
+  font-family: 'Lato', sans-serif;
 }
 
 @media screen and (min-width:1200px) {
