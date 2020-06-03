@@ -287,16 +287,15 @@ img {
 
 .can-do-left {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .can-do-right {
   color: #fff;
   text-align: center;
+  margin-top: 20px;
 }
 
 .can-do-text {
-  width: 75%;
   margin: auto;
   margin-top: 35px;
   line-height: 23px;
@@ -323,7 +322,6 @@ img {
 
 .our-latest-box {
   text-align: center;
-  width: 80%;
   margin: auto;
 }
 
@@ -344,6 +342,10 @@ img {
 
 .our-skills-data {
   margin-top: 88px;
+}
+
+.our-skills-data:first-child{
+  margin-top: 40px;
 }
 
 .sns-box {
@@ -421,12 +423,12 @@ img {
 
 .can-do-left {
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .can-do-right {
   color: #fff;
   text-align: center;
+  margin-top: 10px;
 }
 
 .can-do-text {
@@ -476,6 +478,10 @@ img {
 
 .our-skills-data {
   margin-top: 88px;
+}
+
+.our-skills-data:first-child{
+  margin-top: 40px;
 }
 
 .sns-inner {
