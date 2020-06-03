@@ -1,5 +1,8 @@
 body {
   font-family: 'Lato', sans-serif;
+}
+
+.raleway{
   font-family: 'Raleway', sans-serif;
 }
 
@@ -35,7 +38,6 @@ body {
   font-size: 12px;
   background-color: #74cfae;
   color: #fff;
-  font-family: 'Lato', sans-serif;
   transition: 0.3s;
 }
 
@@ -79,6 +81,10 @@ body {
   font-size: 24px;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 .our-latest-content {
   opacity: 0.7;
   transition: 0.3s;
@@ -115,7 +121,6 @@ body {
   font-size: 16px;
   color: #fff;
   margin-top: 20px;
-  font-family: 'Lato', sans-serif;
 }
 
 .sns {
@@ -142,7 +147,6 @@ body {
 .footer-text {
   color: #fff;
   text-align: end;
-  font-family: 'Lato', sans-serif;
 }
 
 @media screen and (min-width:1200px) {
@@ -182,12 +186,11 @@ body {
 .can-do-text {
   font-size: 20px;
   margin-top: 35px;
-  font-family: 'Lato', sans-serif;
   line-height: 23px;
 }
 
 .our-latest-lists {
-  padding: 40px 0 90px 0;
+  margin: 40px 0 90px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -197,11 +200,11 @@ body {
   margin: 80px 0 0 100px;
 }
 
-.our-latest-list:nth-child(1),.our-latest-list:nth-child(4) {
+.our-latest-list:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.our-latest-list:nth-child(1),.our-latest-list:nth-child(2),.our-latest-list:nth-child(3) {
+.our-latest-list:nth-child(-n+3) {
   margin-top: 0;
 }
 
@@ -219,7 +222,6 @@ body {
   background-color: #74cfae;
   color: #fff;
   width: 20%;
-  font-family: 'Lato', sans-serif;
   transition: 0.3s;
   margin-left: 90px;
 }
@@ -297,7 +299,6 @@ body {
   width: 75%;
   margin: auto;
   margin-top: 35px;
-  font-family: 'Lato', sans-serif;
   line-height: 23px;
 }
 
@@ -335,7 +336,6 @@ body {
   font-size: 12px;
   background-color: #74cfae;
   color: #fff;
-  font-family: 'Lato', sans-serif;
   transition: 0.3s;
   display: block;
   width: 55px;
@@ -431,7 +431,6 @@ body {
 
 .can-do-text {
   margin-top: 35px;
-  font-family: 'Lato', sans-serif;
   line-height: 23px;
 }
 
@@ -469,7 +468,6 @@ body {
   font-size: 12px;
   background-color: #74cfae;
   color: #fff;
-  font-family: 'Lato', sans-serif;
   transition: 0.3s;
   display: block;
   width: 55px;
