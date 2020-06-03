@@ -28,7 +28,7 @@ body {
 .fas.fa-bolt {
   font-size: 35px;
   color: #4e4e4e;
-  }
+}
 
 .header-btn {
   padding: 14px 12px;
@@ -36,15 +36,16 @@ body {
   background-color: #74cfae;
   color: #fff;
   font-family: 'Lato', sans-serif;
+  transition: 0.3s;
 }
 
 .header-btn:hover {
   color: #333;
-  transition: 0.3 ;
 }
 
 .main {
   width: 100%;
+  padding-top: 70px;
 }
 
 .title {
@@ -57,62 +58,60 @@ body {
   margin-top: 20px;
 }
 
-.green {
+.can-do {
   background-color: #74cfae;
 }
 
-.green-right {
-  color: #fff;
-  text-align: center;
-}
-
-.green-title {
+.can-do-title {
   font-size: 24px;
 }
 
-.image {
+.our-latest {
   background-color: #f2f2f2;
 }
 
-.image-inner {
+.our-latest-inner {
   padding: 60px 0 70px 0;
 }
 
-.image-title {
+.our-latest-title {
   text-align: center;
   font-size: 24px;
 }
 
-.image-content:hover {
-  opacity: 1.0 ;
-  transition: 0.3;
+.our-latest-content {
+  opacity: 0.7;
+  transition: 0.3s;
+  display: block;
 }
 
-.image-btn:hover {
+.our-latest-content:hover {
+  opacity: 1.0;
+}
+
+.our-latest-btn:hover {
   color: #333;
-  transition: 0.3;
 }
 
-.black {
+.our-skills {
   background-color: #4e4e4e;
 }
 
-.black-inner {
+.our-skills-inner {
   padding: 70px 0 100px 0;
 }
 
-.black-data {
+.our-skills-data {
   text-align: center;
 }
 
-.black-title {
+.our-skills-title {
   color: #fff;
   text-align: center;
-  padding-bottom: 40px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
-.data-title{
+.our-skills-text{
   font-size: 16px;
   color: #fff;
   margin-top: 20px;
@@ -125,7 +124,6 @@ body {
 
 .box:hover {
   background-color: #fff;
-  transition: 0.3s ;
 }
 
 .font {
@@ -169,43 +167,45 @@ body {
   display: none;
 }
 
-.green-inner {
+.can-do-inner {
   padding-top: 50px;
   display: flex;
+  width: 67%;
 }
 
-.green-right {
+.can-do-right {
   color: #fff;
   text-align: center;
-  margin-left: 208px;
+  margin-left: 110px;
 }
 
-.green-text {
+.can-do-text {
   font-size: 20px;
   margin-top: 35px;
   font-family: 'Lato', sans-serif;
+  line-height: 23px;
 }
 
-.image-contents {
+.our-latest-lists {
   padding: 40px 0 90px 0;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.image-content {
+.our-latest-list {
   margin: 80px 0 0 100px;
-  width: 240px;
-  opacity: 0.7;
 }
 
-.image-content:nth-child(1),.image-content:nth-child(4) {
+.our-latest-list:nth-child(1),.our-latest-list:nth-child(4) {
   margin-left: 0;
 }
 
-.image-content:nth-child(1),.image-content:nth-child(2),.image-content:nth-child(3) {
+.our-latest-list:nth-child(1),.our-latest-list:nth-child(2),.our-latest-list:nth-child(3) {
   margin-top: 0;
 }
 
-.image-box {
+.our-latest-box {
   text-align: center;
   width: 63%;
   margin: auto;
@@ -213,29 +213,28 @@ body {
   align-items: center;
 }
 
-.image-text {
-  margin-right: 90px;
-}
-
-.image-btn {
+.our-latest-btn {
   padding: 17px 20px;
   font-size: 12px;
   background-color: #74cfae;
   color: #fff;
   width: 20%;
   font-family: 'Lato', sans-serif;
+  transition: 0.3s;
+  margin-left: 90px;
 }
 
-.black-flex {
+.our-skills-flex {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
-.black-data {
+.our-skills-data {
   margin-left: 180px;
 }
 
-.black-data:first-child {
+.our-skills-data:first-child {
   margin-left: 0;
 }
 
@@ -254,6 +253,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 }
 
@@ -279,67 +279,71 @@ body {
   display: none;
 }
 
-.green-inner {
+.can-do-inner {
   padding: 50px 0 25px 0;
 }
 
-.green-left {
+.can-do-left {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.green-right {
+.can-do-right {
   color: #fff;
   text-align: center;
 }
 
-.green-text {
+.can-do-text {
   width: 75%;
   margin: auto;
   margin-top: 35px;
   font-family: 'Lato', sans-serif;
+  line-height: 23px;
 }
 
-.image-contents {
-  padding: 40px 0 80px 0;
-  text-align: center;
-  width: 350px;
+.our-latest-lists {
+  width: 300px;
   margin: auto;
 }
 
-.image-content {
-  width: 370px;
+.our-latest-content {
   opacity: 0.7;
+  transition: 0.3s;
+  display: block;
 }
 
-.image-content:nth-child(4) {
+.our-latest-list:first-child {
+  margin-top: 40px;
+}
+
+.our-latest-list:nth-child(4) {
   margin-top: 80px;
 }
 
-.image-box {
+.our-latest-box {
   text-align: center;
   width: 80%;
   margin: auto;
 }
 
-.image-text {
-  margin-bottom: 40px;
+.our-latest-text {
+  margin-top: 80px;
 }
 
-.image-btn {
+.our-latest-btn {
   padding: 7px 20px;
   font-size: 12px;
   background-color: #74cfae;
   color: #fff;
   font-family: 'Lato', sans-serif;
+  transition: 0.3s;
+  display: block;
+  width: 55px;
+  margin: 40px auto 0;
 }
 
-.black-data {
+.our-skills-data {
   margin-top: 88px;
-}
-
-.black-data:first-child {
-  margin-top: 0;
 }
 
 .sns-box {
@@ -357,6 +361,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 }
 
@@ -378,7 +383,7 @@ body {
   font-weight: 700;
 }
 
-.header__btn {
+.header-btn {
   display: none;
 }
 
@@ -410,63 +415,69 @@ body {
   top: 26px;
 }
 
-.green-inner {
+.can-do-inner {
   padding: 50px 0 30px 0;
 }
 
-.green-left {
+.can-do-left {
   text-align: center;
   margin-bottom: 10px;
 }
 
-.green-right {
+.can-do-right {
   color: #fff;
   text-align: center;
 }
 
-.green-text {
+.can-do-text {
   margin-top: 35px;
   font-family: 'Lato', sans-serif;
+  line-height: 23px;
 }
 
-.image-contents {
-  padding: 40px 0 90px 0;
-  text-align: center;
+.our-latest-lists {
+  width: 300px;
+  margin: auto;
 }
 
-.image-content {
-  width: 370px;
+.our-latest-content {
   opacity: 0.7;
+  transition: 0.3s;
+  display: block;
 }
 
-.image-content:nth-child(4) {
+.our-latest-list:first-child {
+  margin-top: 40px;
+}
+
+.our-latest-list:nth-child(4) {
   margin-top: 80px;
 }
 
-.image-box {
+.our-latest-box {
   text-align: center;
   width: 80%;
   margin: auto;
 }
 
-.image-text {
-  margin-bottom: 20px;
+.our-latest-text {
+  margin-top: 80px;
 }
 
-.image-btn {
+.our-latest-btn {
   padding: 7px 20px;
   font-size: 12px;
   background-color: #74cfae;
   color: #fff;
   font-family: 'Lato', sans-serif;
+  transition: 0.3s;
+  display: block;
+  width: 55px;
+  margin: 40px auto 0;
 }
 
-.black-data {
-  margin-top: 90px;
-}
-
-.black-date:first-child {
-  margin-top: 0;
+.our-skills-data {
+  margin-top: 88px;
 }
 
 .sns-inner {
@@ -478,5 +489,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 }
