@@ -2,16 +2,21 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  vertical-align: bottom;
+}
+
 .raleway{
   font-family: 'Raleway', sans-serif;
 }
 
 .default-color{
   color: 	#333;
-}
-
-.clear-line{
-  text-decoration: none;
 }
 
 .header {
@@ -81,14 +86,9 @@ body {
   font-size: 24px;
 }
 
-img {
-  vertical-align: bottom;
-}
-
 .our-latest-content {
   opacity: 0.7;
   transition: 0.3s;
-  display: block;
 }
 
 .our-latest-content:hover {
@@ -127,7 +127,7 @@ img {
   background-color: #f2f2f2;
 }
 
-.box:hover {
+.sns-box:hover {
   background-color: #fff;
 }
 
@@ -240,16 +240,16 @@ img {
   margin-left: 0;
 }
 
-.sns-box {
-  display: flex;
-  justify-content: center;
-}
-
 .sns-inner {
   padding: 200px 0 200px 0;
 }
 
-.box {
+.sns-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.sns-box {
   width: 185px;
   height: 80px;
   display: flex;
@@ -303,20 +303,10 @@ img {
 
 .our-latest-lists {
   width: 300px;
-  margin: auto;
+  margin: 40px auto 0;
 }
 
-.our-latest-content {
-  opacity: 0.7;
-  transition: 0.3s;
-  display: block;
-}
-
-.our-latest-list:first-child {
-  margin-top: 40px;
-}
-
-.our-latest-list:nth-child(4) {
+.our-latest-list:nth-child(3n+1) {
   margin-top: 80px;
 }
 
@@ -327,7 +317,7 @@ img {
 
 .our-latest-text {
   margin-top: 80px;
-  font-size: 14px;
+  line-height: 22px;
 }
 
 .our-latest-btn {
@@ -341,24 +331,28 @@ img {
   margin: 40px auto 0;
 }
 
+.our-skills-flex{
+  margin-top: 40px;
+}
+
 .our-skills-data {
   margin-top: 88px;
 }
 
-.our-skills-data:first-child{
-  margin-top: 40px;
-}
-
-.sns-box {
-  display: flex;
-  justify-content: center;
+.our-skills-data:first-child {
+  margin-top: 0;
 }
 
 .sns-inner {
   padding: 200px 0 200px 0;
 }
 
-.box {
+.sns-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.sns-box {
   width: 185px;
   height: 80px;
   display: flex;
@@ -404,6 +398,7 @@ img {
   width: 20px;
   height: 2px;
   background-color: #ddd;
+  box-sizing: border-box;
 }
 
 .top {
@@ -429,42 +424,32 @@ img {
 .can-do-right {
   color: #fff;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .can-do-text {
   margin: 35px auto 0;
   line-height: 23px;
-  width: 77%;
+  font-size: 18px;
 }
 
 .our-latest-lists {
   width: 300px;
-  margin: auto;
+  margin: 40px auto 0;
 }
 
-.our-latest-content {
-  opacity: 0.7;
-  transition: 0.3s;
-  display: block;
-}
-
-.our-latest-list:first-child {
-  margin-top: 40px;
-}
-
-.our-latest-list:nth-child(4) {
+.our-latest-list:nth-child(3n+1) {
   margin-top: 80px;
 }
 
 .our-latest-box {
   text-align: center;
-  width: 90%;
   margin: auto;
 }
 
 .our-latest-text {
   margin-top: 80px;
+  line-height: 22px;
 }
 
 .our-latest-btn {
@@ -490,7 +475,7 @@ img {
   padding: 50px 0 100px 0;
 }
 
-.box {
+.sns-box {
   height: 80px;
   display: flex;
   justify-content: center;
