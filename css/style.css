@@ -327,16 +327,17 @@ img {
 
 .our-latest-text {
   margin-top: 80px;
+  font-size: 14px;
 }
 
 .our-latest-btn {
-  padding: 7px 20px;
-  font-size: 12px;
+  padding: 13px 20px;
+  font-size: 13px;
   background-color: #74cfae;
   color: #fff;
   transition: 0.3s;
   display: block;
-  width: 55px;
+  width: 60px;
   margin: 40px auto 0;
 }
 
@@ -432,8 +433,9 @@ img {
 }
 
 .can-do-text {
-  margin-top: 35px;
+  margin: 35px auto 0;
   line-height: 23px;
+  width: 77%;
 }
 
 .our-latest-lists {
@@ -457,7 +459,7 @@ img {
 
 .our-latest-box {
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -466,13 +468,13 @@ img {
 }
 
 .our-latest-btn {
-  padding: 7px 20px;
-  font-size: 12px;
+  padding: 12px 20px;
+  font-size: 16px;
   background-color: #74cfae;
   color: #fff;
   transition: 0.3s;
   display: block;
-  width: 55px;
+  width: 100px;
   margin: 40px auto 0;
 }
 
