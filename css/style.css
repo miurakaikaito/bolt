@@ -281,6 +281,10 @@ img {
     margin-top: 80px;
   }
 
+  .our-latest-list:first-child {
+    margin-top: 0;
+  }
+
   .our-latest-text {
     margin-top: 80px;
   }
@@ -384,6 +388,10 @@ img {
     margin-top: 80px;
   }
 
+  .our-latest-list:first-child {
+    margin-top: 0;
+  }
+  
   .our-latest-text {
     margin-top: 80px;
   }
