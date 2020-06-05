@@ -6,17 +6,11 @@ body {
 
 a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
 }
 
 img {
   vertical-align: bottom;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .raleway {
@@ -47,10 +41,6 @@ img {
   line-height: 22px;
 }
 
-.auto {
-  margin: 0 auto;
-}
-
 .text-align {
   text-align: center;
 }
@@ -61,6 +51,7 @@ img {
 
 .inner {
   width: 97%;
+  margin: 0 auto;
 }
 
 .header {
@@ -79,7 +70,7 @@ img {
   align-items: center;
 }
 
-.fas.fa-bolt {
+.header-mark {
   font-size: 35px;
   color: #4e4e4e;
 }
@@ -127,11 +118,10 @@ img {
 }
 
 .our-skills-text{
-  font-size: 16px;
   margin-top: 20px;
 }
 
-.sns-box:hover {
+.sns-area:hover {
   background-color: #fff;
 }
 
@@ -145,7 +135,7 @@ img {
 }
 
 .footer-text {
-  float: right;
+  text-align: right;
 }
 
 @media screen and (min-width:1200px) {
@@ -171,7 +161,6 @@ img {
   .can-do-inner {
     padding-top: 50px;
     display: flex;
-    width: 67%;
   }
 
   .can-do-right {
@@ -205,7 +194,7 @@ img {
     width: 63%;
     display: flex;
     align-items: center;
-    margin-top: 90px;
+    margin: 90px auto 0;
   }
 
   .our-latest-btn {
@@ -241,10 +230,11 @@ img {
 
   .sns-box {
     width: 185px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .sns-area {
+    width: 100%;
+    padding: 20px 0;
     transition: 0.3s;
   }
 
@@ -327,10 +317,11 @@ img {
 
   .sns-box {
     width: 185px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .sns-area {
+    width: 100%;
+    padding: 20px 0;
     transition: 0.3s;
   }
 
@@ -357,12 +348,13 @@ img {
     height: 40px;
     border: solid 1px #ddd;
     border-radius: 4px;
+    box-sizing: border-box;
   }
 
   .ham_line {
     display: block;
     width: 20px;
-    margin: 9px auto 0;
+    margin: 8px auto 0;
     border: 1px solid #ddd;
   }
 
@@ -405,23 +397,25 @@ img {
     margin: 40px auto 0;
   }
 
+  .our-skills-datas{
+    margin-top: 40px;
+  }
+
   .our-skills-data {
     margin-top: 88px;
   }
 
-  .our-skills-data:first-child{
-    margin-top: 40px;
+  .our-skills-data:first-child {
+    margin-top: 0;
   }
 
   .sns-inner {
     padding: 50px 0;
   }
 
-  .sns-box {
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .sns-area {
+    width: 100%;
+    padding: 20px 0;
     transition: 0.3s;
   }
 
